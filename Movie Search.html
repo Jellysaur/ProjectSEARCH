@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .movie {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .details {
+            margin-left: 20px;
+        }
+
+        .similar-movies {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Movie Search</h1>
+        <input type="text" id="movie-title" placeholder="Enter movie title">
+        <button id="search-btn">Search</button>
+
+        <div id="movie-details" class="movie"></div>
+
+        <div id="similar-movies" class="similar-movies"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
